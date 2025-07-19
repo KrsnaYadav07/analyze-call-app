@@ -1,0 +1,87 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #c3e2f9 10%, #165493 100%);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 10px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #002b5c;
+  text-shadow: 1px 1px 4px rgba(255, 255, 255, 0.5);
+}
+
+.uploadSection {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  padding: 2rem;
+  backdrop-filter: blur(15px); 
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.input {
+  color: #003366;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #c0bfe4;
+  color: #01050a;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #cdeaf1;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.result {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  padding: 1.5rem;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  box-shadow: 0 8px 30px rgba(31, 38, 135, 0.2);
+  color: #002b5c;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.subheading {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #003366;
+}
+
+.json {
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  color: #333;
+}
