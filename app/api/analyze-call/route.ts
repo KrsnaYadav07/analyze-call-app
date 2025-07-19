@@ -31,7 +31,7 @@ export async function POST(req: Request) {
 
     if (
       process.env.OPENAI_API_KEY &&
-      process.env.OPENAI_API_KEY !== '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'
+      process.env.OPENAI_API_KEY !== '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'
     ) {
       const transcription = await openai.audio.transcriptions.create({
         file: blob,
